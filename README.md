@@ -1,5 +1,4 @@
 #### Name: Weicheng Kuo
-
 #### Student ID: 25941765
 
 ## Bio
