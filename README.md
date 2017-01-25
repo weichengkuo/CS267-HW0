@@ -14,7 +14,7 @@ Often the computation is executed on GPUs, because of they are suited for matrix
 
 In 2012, AlexNet came out with stunning results on ImageNet [1], which most considered to be the start of this wave of deep learning revolution. Shortly after that, there came a Google paper on distributed learning of deep networks [2]. The group implemented two algrotihms to achieve 30x speedup compared to single machine while maintaining the same performance on Imagenet -- 1) An asynchronous stochastic gradient descent that support large number of model replicas, and 2) Sandblaster, a framework that supports distributed batch optimization algorithms like L-BFGS. Building upon this work, last year Tensorflow (also by Google) [3] describes network computations by a graph dataflow-like model and maps them to a wide variety of platforms -- from mobile phone to single machine to large-scale clusters. This modification proves to be a great success and is widely adopted by the industry and academia now. 
 <div><img src="distBelief.png"></div>
-<div>{text-align: center} Google's first distributed Deep Learning system: DistBelief</div>
+<div style="text-align: center"> Google's first distributed Deep Learning system: DistBelief</div>
 
 ## Reference
 
